@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    height: 2.5rem;
+}
+
+.gameButton {
+    border-color: white;
+    border-radius: 1rem;
+    border-width: 0.4rem;
+    height: 6rem;
+    margin: 0.5rem;
+    opacity: 50%;
+    width: 6rem;
+}
+
+.gameButtonAnimated {
+    opacity: 100%;
+}
+
+#gameOver {
+    background: BlueViolet;
+    border: ridge;
+    border-radius: 0.5rem;
+    display: none;
+    font-size: xx-large;
+    left: 0;
+    margin: 0 auto;
+    padding: 0.5rem;
+    position: absolute;
+    right: 0;
+    top: 15rem;
+    width: 10rem;
+}
+
+#streak {
+    font-size: large;
+    padding-top: 1rem;
+}
+
+#startButton {
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0.5rem;
+}
+
+#blue {
+    background: blue;
+}
+
+#green {
+    background: green;
+}
+
+#red {
+    background: red;
+}
+
+#yellow {
+    background: yellow;
+}

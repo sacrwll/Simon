@@ -1,2 +1,2 @@
 # Simon
-Simple HTML/CSS/Javascript simon game
+Simple HTML/CSS/Javascript/jQuery simon game

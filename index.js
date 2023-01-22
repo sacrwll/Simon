@@ -1,5 +1,5 @@
 var currentButton = 0;
-var currentStreak = 0
+var currentStreak = 0;
 var longestStreak = 0;
 var sequence = [];
 
@@ -69,7 +69,7 @@ function playSequence() {
     }
 }
 
-/* Functioned triggered when a game button is pressed,
+/* Function triggered when a game button is pressed,
 game logic happens in here*/
 function pressButton() {
 
@@ -99,9 +99,9 @@ function pressButton() {
         if (currentButton > longestStreak) {
             longestStreak = currentButton;
         }
-        if (currentButton > currentStreak) {
-            currentStreak = currentButton;
-        }
+
+        currentStreak = currentButton;
+        
         $("#streak").html(`Current Streak: ${currentStreak + 1}</br>Best Streak: ${longestStreak + 1}`);
 
         addToSequence();
